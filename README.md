@@ -4,7 +4,7 @@
 
 
 # 개발환경
-* [X] IDE : IntelliJ 
+* [X] IDE : IntelliJ (2022.1.4 - Community Edition) 
 * [X] JAVA : 11 
 * [X] Spring boot : 2.7.2 
 * [X] gradle : 7.5 
