@@ -4,7 +4,7 @@
 
 
 # 개발환경
-*[ ] IDE : IntelliJ
+* [ ] IDE : IntelliJ
 JAVA : 11
 Spring boot : 2.7.2
 gradle : 7.5
