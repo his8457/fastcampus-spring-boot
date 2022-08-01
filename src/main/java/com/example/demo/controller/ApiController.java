@@ -12,7 +12,7 @@ public class ApiController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "heelo spring boot";
+        return "hello spring boot";
     }
 
     @GetMapping("/test")
