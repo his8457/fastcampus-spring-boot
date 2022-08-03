@@ -1,5 +1,5 @@
-# fastcampus-springBoot-basic
-스프링부트 기초를 학습한다.
+# fastcampus-spring-boot
+스프링부트를 학습한다.
 
 
 
