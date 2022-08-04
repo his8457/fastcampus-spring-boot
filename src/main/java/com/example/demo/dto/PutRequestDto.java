@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import java.util.List;
 
 @JsonNaming(value = PropertyNamingStrategy.SnakeCaseStrategy.class)
-public class PutRequestDto {
+public class PutRequestDto {//
 
     private String name;
     private int age;
