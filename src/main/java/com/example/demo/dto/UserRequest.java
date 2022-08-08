@@ -1,6 +1,7 @@
 package com.example.demo.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 
@@ -10,6 +11,8 @@ public class UserRequest {
     private String name;
     private String email;
     private int age;
+    @JsonProperty("phone_number")
+    private String phoneNumber;
 
     public String getName() {
         return name;
@@ -41,6 +44,15 @@ public class UserRequest {
                 "name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 ", age=" + age +
+                ", phoneNumber='" + phoneNumber + '\'' +
                 '}';
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 }
